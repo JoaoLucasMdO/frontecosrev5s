@@ -1,7 +1,7 @@
 import axios from "axios";
 import { string } from "yup";
 const api = axios.create({
-  baseURL: 'https://ecosrev-api.duckdns.org/api',
+  baseURL: 'http://localhost:4000/api',
   headers: {
     "Content-Type": "application/json",
   },

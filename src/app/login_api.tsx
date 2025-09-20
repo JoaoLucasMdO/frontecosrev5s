@@ -2,7 +2,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 
 const api = axios.create({
-  baseURL: 'https://ecosrev-api.duckdns.org/api', 
+  baseURL: 'http://localhost:4000/api', 
   headers: {
     "Content-Type": "application/json",
   },
